@@ -102,7 +102,7 @@ function boundary(n) {
         } else if (n > 100){
             const boundary = false
             console.log(`${n} è: ${boundary}`);
-            return false
+            return boundary
         }
     } else {
         const boundary = false
