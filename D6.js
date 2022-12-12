@@ -243,7 +243,7 @@ function giveMeRandom(n) {
     const array = []
     if (typeof n === 'number'){
         for (let i = 0; i < n; i++) {
-            let numero = Math.floor(Math.random()*10)
+            let numero = Math.floor(Math.random()*11)
             array.push(numero)
             //let numero = Math.floor(Math.random()*10)
             }
